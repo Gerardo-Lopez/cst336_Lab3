@@ -29,25 +29,25 @@ include 'inc/cards.php';
                     if($t <= 13 ) {
                         //$deck["cards"][$t]["value"] = $t;
                         //$deck["cards"][$t]["suit"] = "clubs";
-                        $deck["cards"][$t]["img"] = "src='img/$t.png'";
+                        $deck["cards"][$t]["img"] = "src='img/clubs/$t.png'";
                     }
                     else if($t > 13 && $t <= 26 ) {
                         $s = $t - 13;
                         //$deck["cards"][$t]["value"] = $s;
                         //$deck["cards"][$t]["suit"] = "diamonds";
-                        $deck["cards"][$t]["img"] = "src='img/$s.png'";
+                        $deck["cards"][$t]["img"] = "src='img/diamonds/$s.png'";
                     }
                     else if($t > 26 && $t <= 39 ) {
                         $s = $t - 26;
                         //$deck["cards"][$t]["value"] = $s;
                         //$deck["cards"][$t]["suit"] = "hearts";
-                        $deck["cards"][$t]["img"] = "src='img/$s.png'";
+                        $deck["cards"][$t]["img"] = "src='img/hearts/$s.png'";
                     }
                     else if($t > 39 && $t <= 52 ) {
                         $s = $t - 39;
                         //$deck["cards"][$t]["value"] = $s;
                         //$deck["cards"][$t]["suit"] = "spades";
-                        $deck["cards"][$t]["img"] = "src='img/$s.png'";
+                        $deck["cards"][$t]["img"] = "src='img/spades/$s.png'";
                     }
                 }
                 foreach($deck as $result){
