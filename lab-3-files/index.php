@@ -59,7 +59,7 @@ include 'inc/cards.php';
                     //    echo $result['value'], " ", $result['suit'], $result['img'], '<br>';
                     //}
                     
-                    foreach($results['cards'] as $result) {
+                    foreach($results['cards'] as $result) { 
                         echo $result['img'], '<br>';
                     }
                 }*/
