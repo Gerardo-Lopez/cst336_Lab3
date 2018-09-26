@@ -4,20 +4,16 @@
     $player2 = array("Name" => "temp 2", "profilePic" => "src='img/hearts/1.png' width ='70'" , "hand" => array());
     $player3 = array("Name" => "temp 3", "profilePic" => "src='img/clubs/1.png' width ='70'", "hand" => array());
     $player4 = array("Name" => "temp 4", "profilePic" => "src='img/spades/1.png' width ='70'", "hand" => array());
-
-    // foreach ($player["hand"] as $cards){
-    //     echo "<img ".$cards ["img"]." />";
-    //     echo '<br>';
-    // }
     
         
-    function players() {
+    function players($player1, $player2, $player3, $player4) {
         for ($i=1; $i<5; $i++) {
             $randomNumber = rand(1,4);
             if ($randomNumber == 1) {
                 echo $player1["Name"];
                 echo "<img ".$player1["profilePic"]." />";
                 echo '<br>';
+                
             }
             else if ($randomNumber == 2) {
                 echo $player2["Name"];
@@ -35,15 +31,15 @@
                 echo '<br>';
             }
         }
+        
     }
-    
-    players();
+
     
     
             //     for ($i = 0; $i < 1; $i++){
-            //     echo $player1["Name"];
-            //     echo "<img ".$player1["profilePic"]." />";
-            //     echo '<br>';
+                // echo $player1["Name"];
+                // echo "<img ".$player1["profilePic"]." />";
+                // echo '<br>';
                 
             // }
             //     for ($i = 0; $i < 1; $i++){
