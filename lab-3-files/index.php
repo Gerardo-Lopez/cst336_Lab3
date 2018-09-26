@@ -19,22 +19,21 @@ include 'inc/players.php';
         <div id="main"> 
             <?php
             $time_start = microtime(true); 
-            // I AM EMPTY
 
-                for($card = 0; $card < 53; $card++){
-                    for ($trait = 0; $trait < 3; $trait++){
+                // for($card = 0; $card < 53; $card++){
+                //     for ($trait = 0; $trait < 3; $trait++){
                     
-                    if($trait == 2)
-                    echo "<img ".$deck[$card][$trait]." />";
+                //     if($trait == 2)
+                //     echo "<img ".$deck[$card][$trait]." />";
                     
-                    else
-                    echo $deck[$card][$trait];    
-                    }
+                //     else
+                //     echo $deck[$card][$trait];    
+                //     }
                 
-                echo '<br>';    
-                }
+                // echo '<br>';    
+                // }
                 
-                echo '<h3>Done</h3>';
+                // echo '<h3>Done</h3>';
                 
             $score1 = 0;
             $score2 = 0;
@@ -131,6 +130,8 @@ include 'inc/players.php';
                 // } 
                 
             // }
+            
+            players($player1, $player2, $player3, $player4);
                  
             
             deal_hand1($deck);
@@ -139,22 +140,21 @@ include 'inc/players.php';
             deal_hand4($deck);            
             
             
-                            for($card = 0; $card < 52; $card++){
-                    for ($trait = 0; $trait < 3; $trait++){
+                //             for($card = 0; $card < 52; $card++){
+                //     for ($trait = 0; $trait < 3; $trait++){
                     
-                    if($trait == 2)
-                    echo "<img ".$deck[$card][$trait]." />";
+                //     if($trait == 2)
+                //     echo "<img ".$deck[$card][$trait]." />";
                     
-                    else
-                    echo $deck[$card][$trait];    
-                    }
+                //     else
+                //     echo $deck[$card][$trait];    
+                //     }
                 
-                echo '<br>';    
-                }
+                // echo '<br>';    
+                // }
                 
-                echo '<h3>Done</h3>';
+                // echo '<h3>Done</h3>';
 
-            players($player1, $player2, $player3, $player4);
             ?>
             
         </div>
