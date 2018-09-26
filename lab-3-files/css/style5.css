@@ -1,0 +1,28 @@
+body {
+    background-image:url("/lab3/lab-3-files/img/pictures/Incredibles-background.png");
+}
+
+.center {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    color: white;
+}
+
+#main {
+    color: white;
+}
+
+#main2 {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    color: white;
+}
+
+#main3 {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    color: white;
+}
