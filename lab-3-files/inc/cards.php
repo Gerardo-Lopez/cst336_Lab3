@@ -2,7 +2,7 @@
 
 
 
-               $deck = array("numCards" => 52, "cards" => array());
+                $deck = array("cards" => array());
                
                 $deck["cards"][] = array();
             
@@ -34,15 +34,58 @@
                     }
                 }
                 
-                function shuffe_deck(){
-                    return shuffle($deck["cards"]);
-                }
+                // function shuffle_deck($deck){
+                     shuffle($deck["cards"]);
+                     
+                foreach ($deck["cards"] as $cards){
+                echo $cards ["value"];
+                echo $cards ["suit"];
+                echo "<img ".$cards ["img"]." />";
+                
+                echo '<br>';
+            }
+            echo 'DONE';
+            
+            echo '<br>';
+            
+                // }
+                
+                // shuffle_deck($deck);
 
+
+            $score1 = 0;
+            $score2 = 0;
+            $score3 = 0;
+            $score4 = 0;
+
+            function deal_hands($player1, $deck){
+                for ($i = 1; $i < 10; $i++){
+                    // while ($score1 <= 36){
+                    foreach ($deck["cards"] as $cards){
+                        
+                        if ($score1 >= 36)
+                        break;
+                        
+                        $score1 += $cards["value"];
+                        echo "<img ".$cards ["img"]." />";
+                        echo $score1;
+                        $handDelt = array_shift($deck["cards"]); // not yet working
+                        echo '<br>';
+                    }
+                    
+                // } 
+                
+            }
+            }
+            deal_hands($player1, $deck);
+            echo 'DONE';
+            echo '<br>';
             foreach ($deck["cards"] as $cards){
                 echo $cards ["value"];
                 echo $cards ["suit"];
                 echo "<img ".$cards ["img"]." />";
                 echo '<br>';
-}
+            }
+            
     
 ?>
