@@ -1,9 +1,9 @@
 <?php
 
-    $player1 = array("Name" => "temp 1", "profilePic" => "src='img/diamonds/1.png' width ='70'", "hand" => array());
-    $player2 = array("Name" => "temp 2", "profilePic" => "src='img/hearts/1.png' width ='70'" , "hand" => array());
-    $player3 = array("Name" => "temp 3", "profilePic" => "src='img/clubs/1.png' width ='70'", "hand" => array());
-    $player4 = array("Name" => "temp 4", "profilePic" => "src='img/spades/1.png' width ='70'", "hand" => array());
+    $player1 = array("Name" => "temp 1", "profilePic" => "src='img/pictures/mr-incredible.jpg' width ='70'", "hand" => array());
+    $player2 = array("Name" => "temp 2", "profilePic" => "src='img/pictures/elastigirl.jpg' width ='70'" , "hand" => array());
+    $player3 = array("Name" => "temp 3", "profilePic" => "src='img/pictures/dash.jpg' width ='70'", "hand" => array());
+    $player4 = array("Name" => "temp 4", "profilePic" => "src='img/pictures/violet.jpg' width ='70'", "hand" => array());
     
     function score() {
         
