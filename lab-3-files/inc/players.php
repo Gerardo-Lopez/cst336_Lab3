@@ -10,24 +10,54 @@
     //     echo '<br>';
     // }
     
-                for ($i = 0; $i < 1; $i++){
+        
+    function players() {
+        for ($i=1; $i<5; $i++) {
+            $randomNumber = rand(1,4);
+            if ($randomNumber == 1) {
                 echo $player1["Name"];
                 echo "<img ".$player1["profilePic"]." />";
                 echo '<br>';
-                
             }
-                for ($i = 0; $i < 1; $i++){
+            else if ($randomNumber == 2) {
                 echo $player2["Name"];
                 echo "<img ".$player2["profilePic"]." />";
                 echo '<br>';
-                
             }
-                for ($i = 0; $i < 1; $i++){
+            else if ($randomNumber == 3) {
                 echo $player3["Name"];
                 echo "<img ".$player3["profilePic"]." />";
                 echo '<br>';
-                
             }
+            else if ($randomNumber == 4) {
+                echo $player4["Name"];
+                echo "<img ".$player4["profilePic"]." />";
+                echo '<br>';
+            }
+        }
+    }
+    
+    players();
+    
+    
+            //     for ($i = 0; $i < 1; $i++){
+            //     echo $player1["Name"];
+            //     echo "<img ".$player1["profilePic"]." />";
+            //     echo '<br>';
+                
+            // }
+            //     for ($i = 0; $i < 1; $i++){
+            //     echo $player2["Name"];
+            //     echo "<img ".$player2["profilePic"]." />";
+            //     echo '<br>';
+                
+            // }
+            //     for ($i = 0; $i < 1; $i++){
+            //     echo $player3["Name"];
+            //     echo "<img ".$player3["profilePic"]." />";
+            //     echo '<br>';
+                
+            // }
     
     
 ?>

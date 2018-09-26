@@ -18,7 +18,7 @@ include 'inc/players.php'
             <?php
             
             // I AM EMPTY
-
+            players();
             ?>
             
         </div>
