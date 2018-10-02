@@ -40,73 +40,67 @@ include 'inc/players.php';
             $score3 = 0;
             $score4 = 0;
 
-            function deal_hand1($deck){
-                        for ($card = 0; $card <= 52; $card++){
-                        if($score1 <= 36){
+            // function deal_hand1($deck){
+            //             for ($card = 0; $card <= 52; $card++){
+            //             if($score1 <= 36){
                             
-                            $score1 += $deck[$card][0];         // increments score
-                            echo $score1;
-                            echo "<img ".$deck[$card][2]." />"; // echo's picture
-                            $deltCard = array_shift($deck);
-                        }
-                        else
-                            break;
-                        } 
-                        echo '<br>';
-            }
+            //                 $score1 += $deck[$card][0];         // increments score
+            //                 echo $score1;
+            //                 echo "<img ".$deck[$card][2]." />"; // echo's picture
+            //                 $deltCard = array_pop($deck); // POP THIS
+            //             }
+            //             else
+            //                 break;
+            //             } 
+            //             echo '<br>';
+            // }
 
-
-            function deal_hand2($deck){
-                        for ($card = 0; $card <= 52; $card++){
-                        if($score2 <= 36){
+            // function deal_hand2($deck){
+            //             for ($card = 0; $card <= 52; $card++){
+            //             if($score2 <= 36){
                             
-                            $score2 += $deck[$card][0];         // increments score
-                            echo $score2;
-                            echo "<img ".$deck[$card][2]." />"; // echo's picture
-                            $deltCard = array_shift($deck);
+            //                 $score2 += $deck[$card][0];         // increments score
+            //                 echo $score2;
+            //                 echo "<img ".$deck[$card][2]." />"; // echo's picture
+            //                 $deltCard = array_shift($deck);
                         
-                        }
-                        else
-                            break;
+            //             }
+            //             else
+            //                 break;
                         
-                        } 
-                        echo '<br>';
-            }
+            //             } 
+            //             echo '<br>';
+            // }
 
-            function deal_hand3($deck){
-                        for ($card = 0; $card <= 52; $card++){
-                        if($score3 <= 36){
+            // function deal_hand3($deck){
+            //             for ($card = 0; $card <= 52; $card++){
+            //             if($score3 <= 36){
                             
-                            $score3 += $deck[$card][0];         // increments score
-                            echo $score3;
-                            echo "<img ".$deck[$card][2]." />"; // echo's picture
-                            $deltCard = array_shift($deck);
-                        }
-                        else 
-                            break;
-                        }
-                        echo '<br>';
-            }
+            //                 $score3 += $deck[$card][0];         // increments score
+            //                 echo $score3;
+            //                 echo "<img ".$deck[$card][2]." />"; // echo's picture
+            //                 $deltCard = array_shift($deck);
+            //             }
+            //             else 
+            //                 break;
+            //             }
+            //             echo '<br>';
+            // }
 
-            function deal_hand4($deck){
-                        for ($card = 0; $card <= 52; $card++){
-                        if($score4 <= 36){
+            // function deal_hand4($deck){
+            //             for ($card = 0; $card <= 52; $card++){
+            //             if($score4 <= 36){
                             
-                            $score4 += $deck[$card][0];         // increments score
-                            echo $score4;
-                            echo "<img ".$deck[$card][2]." />"; // echo's picture
-                            $deltCard = array_shift($deck);
-                        }
-                        else
-                            break;
-                        }
-                        echo '<br>';
-            }
-
-
-
-
-
+            //                 $score4 += $deck[$card][0];         // increments score
+            //                 echo $score4;
+            //                 echo "<img ".$deck[$card][2]." />"; // echo's picture
+            //                 $deltCard = array_shift($deck);
+            //             }
+            //             else
+            //                 break;
+            //             }
+            //             echo '<br>';
+            // }
 
 
 
@@ -131,13 +125,13 @@ include 'inc/players.php';
                 
             // }
             
-            players($player1, $player2, $player3, $player4);
+            // players($player1, $player2, $player3, $player4);
                  
             
-            deal_hand1($deck);
-            deal_hand2($deck);
-            deal_hand3($deck);            
-            deal_hand4($deck);            
+            // deal_hand1($deck);
+            // deal_hand2($deck);
+            // deal_hand3($deck);            
+            // deal_hand4($deck);            
             
             
                 //             for($card = 0; $card < 52; $card++){
